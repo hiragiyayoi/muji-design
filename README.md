@@ -1,6 +1,6 @@
 # muji-design
 
-![muji-design ― 障子の格子、畳、低い机、一点の生け花](assets/hero.png)
+![muji-design — Japanese design, optimized.](assets/hero.png)
 
 An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode, and others) a Japanese design language for generating UI — grounded in the philosophy of MUJI (無印良品), the spatial grammar of the Japanese room, and a fixed 46-color palette.
 
