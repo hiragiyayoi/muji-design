@@ -6,7 +6,17 @@ An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode
 
 コーディングエージェントが UI を生成する際に使う、Agent Skills 形式のデザインスキルです。日本的デザインのベースを無印良品の思想に置き、和室の空間文法と、ベースとなる46色パレットで様式の土台を作ります。
 
-> **Status: under development.** The design foundations (direction, elements, color palette) are decided and documented in this repository. The `SKILL.md` itself is in preparation.
+> **Status:** The `SKILL.md` is included in this repository, together with CSS design tokens in `references/design-tokens.css`.
+
+## Use
+
+Install as an Agent Skill:
+
+```
+npx skills add hiragiyayoi/muji-design
+```
+
+Or place `SKILL.md` (with the `references/` folder) in your agent's skills directory.
 
 ## Philosophy ― ベースは無印良品、核は最適化
 
