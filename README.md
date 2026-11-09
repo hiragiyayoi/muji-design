@@ -1,6 +1,6 @@
 # muji-design
 
-![muji-design — Japanese design, optimized.](assets/hero.png)
+![muji-design — Japanese design, optimized.](assets/cover.png)
 
 An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode, and others) a Japanese design language for generating UI — grounded in the philosophy of MUJI (無印良品), the spatial grammar of the Japanese room, and a fixed 46-color palette.
 
@@ -36,7 +36,7 @@ An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode
 
 ## Repository layout
 
-- `assets/hero.png` — このプロジェクトを象徴する画像
+- `assets/cover.png` — このプロジェクトを象徴する画像
 - `assets/japanese-color-palette.png` — 確定パレット（46色）
 - `docs/decisions.md` — 決定事項の記録
 - `SKILL.md` — （準備中）
