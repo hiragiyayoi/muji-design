@@ -36,13 +36,6 @@ An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode
 
 このパレットは**ベース（出発点）です**。使う人がプロジェクトに合わせて多少ずらすことを前提としています。ずらす際の目安は、彩度は低く抑えること、暖かいニュートラルの範囲に留めること、色同士の関係（明暗の階段と役割）を保つことです。
 
-## Repository layout
-
-- `assets/cover-mincho.png` — このプロジェクトを象徴する画像
-- `assets/japanese-color-palette.png` — ベースとなるパレット（46色）
-- `docs/decisions.md` — 決定事項の記録
-- `SKILL.md` — （準備中）
-
 ## License
 
 MIT License. See [LICENSE](LICENSE).
