@@ -2,9 +2,9 @@
 
 ![muji-design — Japanese design, optimized.](assets/cover.png)
 
-An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode, and others) a Japanese design language for generating UI — grounded in the philosophy of MUJI (無印良品), the spatial grammar of the Japanese room, and a fixed 46-color palette.
+An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode, and others) a Japanese design language for generating UI — grounded in the philosophy of MUJI (無印良品), the spatial grammar of the Japanese room, and a 46-color reference palette to use as a base.
 
-コーディングエージェントが UI を生成する際に使う、Agent Skills 形式のデザインスキルです。日本的デザインのベースを無印良品の思想に置き、和室の空間文法と確定済みの46色パレットで様式を固定します。
+コーディングエージェントが UI を生成する際に使う、Agent Skills 形式のデザインスキルです。日本的デザインのベースを無印良品の思想に置き、和室の空間文法と、ベースとなる46色パレットで様式の土台を作ります。
 
 > **Status: under development.** The design foundations (direction, elements, color palette) are decided and documented in this repository. The `SKILL.md` itself is in preparation.
 
@@ -34,10 +34,12 @@ An Agent Skills design skill that gives coding agents (VS Code Copilot, OpenCode
 
 候補5系統（参考画像からの実測／Tatami Morning Light／Japanese Minimalism／和色の正本／Misty Tatami）と、自然要素（植物・水・石・土・桜）からなる46色です。主役は障子・畳・木のニュートラル、自然色は差し色として1画面に1色・面積1割まで。
 
+このパレットは**ベース（出発点）であり、固定ではありません**。使う人がプロジェクトに合わせて多少ずらすことを前提としています。ずらす際の目安は、彩度を上げないこと、暖かいニュートラルの範囲に留めること、色同士の関係（明暗の階段と役割）を保つことです。
+
 ## Repository layout
 
 - `assets/cover.png` — このプロジェクトを象徴する画像
-- `assets/japanese-color-palette.png` — 確定パレット（46色）
+- `assets/japanese-color-palette.png` — ベースとなるパレット（46色）
 - `docs/decisions.md` — 決定事項の記録
 - `SKILL.md` — （準備中）
 
